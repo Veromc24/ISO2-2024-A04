@@ -2,11 +2,12 @@ package Persistance;
 
 public class Agent {
 
-	public int Insert(String aSQL) {
+
+	public vector<Object> select(String aSQL) {
 		throw new UnsupportedOperationException();
 	}
 
-	public vector<Object> select(String aSQL) {
+	public int Insert(String aSQL) {
 		throw new UnsupportedOperationException();
 	}
 
