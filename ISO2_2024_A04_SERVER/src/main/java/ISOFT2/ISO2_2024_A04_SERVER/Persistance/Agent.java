@@ -2,6 +2,7 @@ package Persistance;
 
 public class Agent {
 
+
 	public vector<Object> select(String aSQL) {
 		throw new UnsupportedOperationException();
 	}

@@ -11,8 +11,8 @@ public class IU_Metadata_user {
 	public Metadata[] RequestMetadataList() {
 		throw new UnsupportedOperationException();
 	}
-
 	public void Access_metadata() {
 		throw new UnsupportedOperationException();
 	}
+
 }
