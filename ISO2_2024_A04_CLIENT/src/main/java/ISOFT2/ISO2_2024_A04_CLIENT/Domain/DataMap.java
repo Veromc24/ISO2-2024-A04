@@ -3,6 +3,7 @@ package Domain;
 public class DataMap {
 	private int _mapID;
 	private List<Data> _assets;
+	private List<Prop> _mapEntries;
 	public DataOwner _unnamed_DataOwner_;
 	public QualityMeasurementManager _unnamed_QualityMeasurementManager_;
 	public Access_Request_Manager _unnamed_Access_Request_Manager_;
@@ -10,7 +11,12 @@ public class DataMap {
 	public Request _unnamed_Request_;
 	public DataSource _unnamed_DataSource_;
 
-	public boolean validateMap() {
+  
+	public void addEntry(Object aEntry) {
+		throw new UnsupportedOperationException();
+	}
+
+	public List<Prop> getEntries() {
 		throw new UnsupportedOperationException();
 	}
 
